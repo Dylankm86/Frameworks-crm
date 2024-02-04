@@ -18,9 +18,6 @@
                         <button class="bg-green-600 text-white text-sm py-1 px-2 rounded-lg transform hover:scale-110 transition duration-200">
                             <a href="{{ url('users') }}">View all users</a>
                         </button>
-                        <button class="bg-blue-500 text-white text-sm py-1 px-2 rounded-lg transform hover:scale-110 transition duration-200 ">
-                            <a href="{{ url('users/create') }}">Create User</a>
-                        </button>
                     </div>
                 </div>
             </div>
