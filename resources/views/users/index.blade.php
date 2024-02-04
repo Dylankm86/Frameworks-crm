@@ -11,7 +11,7 @@
                     <a href="">
                     <div class="text-xl font-semibold">
                         @foreach($users as $user)
-                            <div class="card mb-4 shadow-lg rounded-lg overflow-hidden transform hover:scale-110 transition duration-200">
+                            <div class="card mb-4 shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-200">
                                 <div class="card-body p-6">
                                     <p class="text-xl font-semibold mb-2">Name: {{ $user->name }}</p>
                                     <p class="text-gray-700">Email: {{ $user->email }}</p>
