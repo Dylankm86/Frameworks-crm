@@ -41,5 +41,11 @@ class UserController extends Controller
 
         return redirect('users')->with('success', 'Category created successfully');
     }
+
+    public function edit($id)
+    {
+        $user = User::find($id);
+        return view($user);
+    }
     
 }

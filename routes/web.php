@@ -36,3 +36,4 @@ Route::get('users', [UserController::class, 'index']);
 Route::get('/dashboard', [UserController::class, 'userCount'])->name('dashboard');
 Route::get('users/create', [UserController::class, 'create'])->name('users.create');
 Route::post('users/create', [UserController::class, 'store'])->name('users.store');
+Route::get('users/edit/{id}', [UserController::class, 'edit'])->name('users.edit');

@@ -8,7 +8,7 @@
                             <a href="{{ url('users/create') }}">Create User</a>
                         </button>
                     </div>
-                    <a href="">
+                    <a href="{{url('users/' .$user->id.'/edit') }}">
                     <div class="text-xl font-semibold">
                         @foreach($users as $user)
                             <div class="card mb-4 shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-200">
